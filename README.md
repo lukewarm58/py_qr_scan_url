@@ -26,8 +26,8 @@
 - Make sure python is installed
   - open a command prompt and type `python --version`
   - if you don't have python go to [python.org](https://www.python.org/downloads/) and install version 3.9 (any version 3.x will likely work)
-- Create a folder to store the `.py` script (e.g. `C:\Documents\Code\qr_scan_url\`)
-- Copy the `.py` script from this repo into your newly created folder
+- Create a folder to store the `qr_scan_url.py` script (e.g. `C:\Documents\Code\qr_scan_url\`)
+- Copy the `qr_scan_url.py` script from this repo into your newly created folder
 - Fire up VScode
   - go to File &rarr; Open Folder
   - select the folder you just created
@@ -37,6 +37,6 @@
   - type `.\venv\Scripts\activate` .... this activates the virtual environment
   - type `pip install pyserial` .... this installs the pySerial package inside the virtual environment
   - to confirm that pyserial has installed correctly type `pip list`
-  - open the `.py` script (should be visible in the left side Explorer window)
+  - open the `qr_scan_url.py` script (should be visible in the left side Explorer window)
   - you should be able to run the program by clicking on the `Run Python File` icon in the upper right corner (looks like a Play button)
   
