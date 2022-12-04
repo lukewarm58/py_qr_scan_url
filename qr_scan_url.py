@@ -39,7 +39,7 @@ if __name__ == "__main__":
         index_count = index
     
     while True:
-        com_port_index = input("\nSelect the port you wish to use (use index number) > ")        #caution, ser_device will be a string.
+        com_port_index = input("\nSelect the port you wish to use (use index number) > ")        #caution, com_port_index will be a string.
         if com_port_index.isnumeric():
             if int(com_port_index) <= index_count:
                 com_port = list_of_ports[int(com_port_index)].device
